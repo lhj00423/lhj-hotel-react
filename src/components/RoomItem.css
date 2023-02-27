@@ -1,0 +1,33 @@
+.roomitem{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.roomitem:nth-child(1){
+    border-top: 3px solid #333;
+} 
+.roomitem img{
+    width: 100%;
+}
+.roomitem > div{
+    padding: 16px;
+}
+.roomitem > div:nth-child(1){width: 30%;}
+.roomitem > div:nth-child(2){width: 40%;}
+.roomitem > div:nth-child(3){
+    width: 30%; text-align: right;}
+
+.roomitem h3{
+    font-size: 26px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.price {
+    font-size: 48px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.price span{
+    font-size: 14px;
+}

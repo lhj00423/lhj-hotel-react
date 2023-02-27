@@ -1,0 +1,27 @@
+.reservsearch{
+    border: 1px solid #333;
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+} 
+.reservsearch > li:nth-child(1){
+    width: 46%;
+    display: flex;
+    position: relative;
+}
+.reservsearch > li:not(:nth-child(1)){
+    width: 18%;
+} 
+.reservsearch > li > div{
+    border-right: 1px solid #ddd;
+    width: 100%;
+} 
+.reservsearch > li > div > span{
+    display: block;
+}
+.reservsearch > li > div.checkdate{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    border-right:none ;
+}
